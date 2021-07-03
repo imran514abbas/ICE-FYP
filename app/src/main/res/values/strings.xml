@@ -1,0 +1,102 @@
+<resources>
+    <string name="app_name">In Case of Emergency</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_circle_members_map">Map</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">log in</string>
+    <string name="dontaccount">"Don't have an account? "</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="invitationcode">"Enter Invite code. if you want to join another circle"</string>
+    <string name="join">join</string>
+    <string name="dialog_title">Exit</string>
+    <string name="dialog_message">Do you want to close this application</string>
+    <string name="splashintro">"This app will help you to save your life In Case of Emergency by sending your Current Location and SMS to Police, Resque, Firebrigade and Family.
+        This app is also the perfect GPS tracker for your family."</string>
+    <string name="hide_code">- - - - - -</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last name</string>
+    <string name="profile_email">Email Address</string>
+    <string name="Fire">
+1. Control flammables and ignition sources\n
+2. Identify and control ignition sources\n
+3. Before starting any hot work:\n
+4. Confirm flammable material has been removed or isolated -\n
+5. I obtain authorisation\n
+6  Before starting hot work in a hazardous area I confirm  gas test has been completed\n
+7. Gas will be monitored continually
+    </string>
+    <string name="Traffic">
+   1. Drive at a safe speed!\n
+2. Maintain distance between vehicles!\n
+3. Do not cut off other vehicles!\n
+4. Keep your eyes on the road!\n
+5. Do not park on the expressway!\n
+6. Do not drive on the shoulder!\n
+7. Leave passing lanes open!\n
+8. Expressways are one-way traffic!\n
+9. Warn drivers behind you about traffic jams ahead of you!\n
+10.Be aware of the angle of your headlight beams!\n
+11.Do a thorough check and adjustment before departure!\n
+</string>
+    <string name="COVID">
+1. Sneeze or cough?  Cover your nose and mouth with a tissue or use your elbow.\n
+2. Wash your hands often with soap and water for at least 20 seconds.\n
+3. Clean and disinfect surfaces around your home and work frequently.\n
+4. Keep at least 6 feet between yourself and others if you must be in public.\n
+5. Wear a cloth face covering over your mouth and nose when around others.\n
+6. If your symptoms are severe, call to get medical attention immediately.
+7. Persistent pain or pressure in the chest\n
+8.Bluish lips or face\n
+9. Trouble breathing
+    </string>
+    <string name="Safity">
+1. Obtain authorisation before overriding or disabling safety controls\n
+2. I understand and use safety critical equipment and procedures which apply to my task\n
+3. l obtain authorisation before:\n
+4. Disabling or overriding safety equipment\n
+5. deviating from procedures\n
+6. crossing a barrier\n
+    </string>
+
+    <string name="Authurization">
+1. Work Authorisation\n
+2. Work with a valid permit when required\n
+3. I have confirmed if\n
+4. permit is required\n
+5. l am authorised to perform the work\n
+6. I understand the permit\n
+7. I have confirmed that hazards are controlled and it is safe to start\n
+8. I stop and reassess if conditions change\n
+    </string>
+
+    <string name="Hight">
+1. Protect yourself against a fall when working at height\n
+2. l inspect my fall protection equipment before use\n
+3. I secure tools and work materials to prevent dropped objects\n
+4. I tie off 100% to approved anchor points while outside a protected area\
+    </string>
+    <string name="Earthquake">
+1. Safety measures of earthquake\n
+2. Check yourself and others for injuries.\n
+3. Check water, gas, and electric lines for damage\n
+4. Turn on the radio.\n
+5. Stay out of damaged buildings.\n
+6. Be careful around broken glass and debris.\n
+7. careful of chimneys (they may fall on you).\n
+8. Stay away from beaches.\n
+9. Stay away from damaged areas.\n
+    </string>
+    <string name="CommonMistake">
+         1.If glass in your home breaks it can be very dangerous to you and your family.\n
+    2.Protect yourself first. Put on closed toed shoes and gloves if you have them.\n
+    3.Very carefully pick up the large pieces of glass and dispose of them.\n
+    4.It’s a good idea to wrap them in a thick paper product like newspaper or double wrapping it in \n
+   5. Make sure the shards of glass are cleaned up. This task can be a bit trickier. \n
+   6. Vacuum the area and surrounding area where the glass broke.\n
+
+
+    </string>
+    <string name="title_activity_circle_maps">Map</string>
+</resources>

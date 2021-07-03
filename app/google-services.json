@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "405184355526",
+    "project_id": "ice-android-app",
+    "storage_bucket": "ice-android-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:405184355526:android:32ed338a7e5555b90b0bc7",
+        "android_client_info": {
+          "package_name": "com.imran.ice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "405184355526-6hqgjp6a12isuo8vdqeeteuecfp7kjr5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.imran.ice",
+            "certificate_hash": "d8a6fdab657c03921345f5d65c6685fbedb12dba"
+          }
+        },
+        {
+          "client_id": "405184355526-m7po56nmuecev0l8plepv1vmqn9ka1g7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3F39W6RLDXbZg-mE58AnpEAVM57zKQkM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "405184355526-m7po56nmuecev0l8plepv1vmqn9ka1g7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

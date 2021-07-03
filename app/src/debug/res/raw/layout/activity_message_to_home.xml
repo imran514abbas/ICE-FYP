@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".Activities.MessageToHome">
+
+    <TextView
+        android:id="@+id/rulesdetails"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/pak_map"
+        android:backgroundTint="#04E86B"
+        android:gravity="center"
+        android:text="I am in trouble please view my location and help me..!"
+        android:textAlignment="center"
+        android:textColor="#0E0E0E"
+        android:textSize="15sp"
+        android:textStyle="bold"></TextView>
+
+    <Button
+        android:id="@+id/sharerules"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/rulesdetails"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/cardbackground"
+        android:drawableRight="@drawable/ic_baseline_share_24"
+        android:paddingRight="20dp"
+        android:text="Message to Family"
+        android:textColor="#D50000"
+        android:textSize="14sp"
+        android:textStyle="bold"></Button>
+</RelativeLayout>

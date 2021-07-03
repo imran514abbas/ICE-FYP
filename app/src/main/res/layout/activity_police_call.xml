@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgg"
+    android:padding="30dp"
+    tools:context=".Activity.PoliceCall">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/police"></ImageView>
+
+    <Button
+        android:id="@+id/policecall"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:background="#fff"
+        android:padding="10dp"
+        android:text="Call To Police"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"></Button>
+
+
+    <Button
+        android:id="@+id/bt_silent"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/policecall"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="#fff"
+        android:text="silent"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

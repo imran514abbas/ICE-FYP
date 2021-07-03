@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A4FFFFFF"
+    android:orientation="vertical"
+    android:padding="30dp"
+
+
+    android:weightSum="10"
+    tools:context=".RulesDetails">
+
+    <TextView
+        android:id="@+id/rulesname"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:background="@drawable/rounded"
+        android:textColor="#0C0C0C"
+        android:textSize="25sp"
+        android:textStyle="bold"></TextView>
+
+
+    <TextView
+        android:id="@+id/rulesdetails"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/pak_map"
+        android:backgroundTint="#04E86B"
+        android:layout_weight="5.5"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:textColor="#0E0E0E"
+        android:textSize="15sp"></TextView>
+
+    <Button
+        android:id="@+id/sharerules"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/cardbackground"
+        android:drawableRight="@drawable/ic_baseline_share_24"
+        android:paddingRight="20dp"
+        android:textSize="20sp"
+        android:text="Share"
+        android:textColor="#D50000"
+        android:textStyle="bold"></Button>
+
+    <ImageView
+        android:id="@+id/imageview"
+        android:layout_width="150dp"
+        android:layout_height="0dp"
+        android:padding="20dp"
+        android:layout_gravity="center"
+        android:layout_weight="2.5"></ImageView>
+
+</LinearLayout>

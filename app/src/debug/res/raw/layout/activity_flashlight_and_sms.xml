@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/l"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Activities.FlashlightAndSMS">
+
+
+    <Button
+        android:id="@+id/bt_send"
+        android:layout_width="147dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="15dp"
+        android:text="Send SMS"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        app:backgroundTint="@color/white" />
+
+    <ToggleButton
+        android:id="@+id/onOffFlashlight"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/white"
+        android:checked="false"
+        android:text="Turn On/Off Camera LED/ Flashlight Android"
+        android:textColor="@color/colorPrimary"
+        android:textOff="Turn On Flash"
+        android:textOn="Turn Off Flash"
+        android:textStyle="bold" />
+
+
+    <ToggleButton
+        android:id="@+id/onOffSiren"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/white"
+        android:checked="false"
+        android:text="Turn On/Off Siren"
+        android:textColor="@color/colorPrimary"
+        android:textOff="Turn On Siren"
+        android:textOn="Turn Off Siren"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

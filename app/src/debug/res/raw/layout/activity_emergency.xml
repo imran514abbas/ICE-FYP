@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    tools:context="com.imranabbas.ice.Activities.Home">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4.34"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:weightSum="4.32">
+
+        <TextView
+            android:id="@+id/text_location"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#0000"
+            android:gravity="center"
+            android:text=""
+            android:textColor="#E40202"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/text_ll"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="0.5"
+            android:background="#0000"
+            android:gravity="center"
+            android:text=""
+            android:textColor="#FF1744"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/text_lll"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="0.5"
+            android:background="#0000"
+            android:gravity="center"
+            android:text=""
+            android:textColor="#FF1744"
+            android:textStyle="bold"></TextView>
+
+        <Button
+            android:id="@+id/GPS"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.17"
+            android:backgroundTint="#0000"
+            android:drawableLeft="@drawable/ic_baseline_gps_fixed_24"
+            android:gravity="center"
+            android:text="Get Current Location"
+            android:textColor="#F60E08"
+            android:textStyle="bold"></Button>
+
+        <Button
+            android:id="@+id/location"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.17"
+            android:backgroundTint="#0000"
+            android:drawableLeft="@drawable/ic_baseline_location_on_24"
+            android:gravity="center"
+            android:text="View Your Location"
+            android:textColor="#FA0505"
+            android:textStyle="bold"></Button>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4.5"
+        android:background="@drawable/pak_map"
+        android:backgroundTint="@color/cardview_shadow_start_color"
+        android:orientation="vertical"
+        android:weightSum="4.5">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.5"
+            android:orientation="horizontal"
+            android:weightSum="1.5">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.75">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:focusableInTouchMode="true"
+                    android:onClick="SendToPolice"
+                    android:padding="10dp"
+                    android:src="@drawable/police"></ImageView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.75">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:onClick="SendToResque"
+                    android:padding="10dp"
+                    android:src="@drawable/icon"></ImageView>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.5"
+            android:orientation="horizontal"
+            android:weightSum="1.5">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.75">
+
+                <ImageView
+                    android:id="@+id/fire"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:onClick="SendToFirebrigade"
+                    android:padding="10dp"
+                    android:src="@drawable/firebriade"></ImageView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.75">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:onClick="SendTHome"
+                    android:padding="10dp"
+                    android:src="@drawable/home"></ImageView>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.5"
+            android:orientation="vertical"
+            android:weightSum="1.5">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1.5"
+                android:onClick="StopEmergency"
+                android:padding="10dp"
+                android:src="@drawable/stop"></ImageView>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.16"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:weightSum="1.16">
+
+        <Button
+            android:id="@+id/rules"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.16"
+            android:backgroundTint="#0000"
+            android:gravity="center"
+
+            android:onClick="LifeSavingRules"
+            android:text="Life Saving Rules"
+            android:textColor="#FF1744"
+            android:textStyle="bold"></Button>
+
+    </LinearLayout>
+
+
+</LinearLayout>
